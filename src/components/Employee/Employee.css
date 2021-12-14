@@ -1,0 +1,37 @@
+.list-item-title{
+    margin-top: 20px;
+}
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.list-item {
+    margin-bottom: 25px;
+    width: 40%;
+    border: 2px solid green;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#btn-modify-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-modify {
+    width: 20%;
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 5px;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
